@@ -12,7 +12,7 @@ public class FortuneTeller {
 		weight = input.nextInt();
 		
 		int age = -999;
-		System.out.println("What is your age?");
+		System.out.println("What is your age?" );
 		age = input.nextInt();
 		
 		int luckyNum = -999;
