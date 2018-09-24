@@ -10,7 +10,7 @@ public class AgeSum {
 		int age2 = -999;
 		int age3 = -999;
 		int sum = -999;
-		
+
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is the age of friend 1?");
 		age1 = input.nextInt();
