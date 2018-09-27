@@ -28,11 +28,10 @@ public class makeSomeChange {
 		
 		centchange = change * (100);
 		dollars = (int)centchange/DOLLARS;
-		quarters = ((int) ((int) (centchange - dollars *DOLLARS)/QUARTERS);
-		dimes = (int)(centchange - dollars *DOLLARS - quarters *QUARTERS)/NICKLES;
-		
-		nickles = (int)centchange/DIMES;
-		pennies = (int)centchange/PENNIES;
+		quarters = ((int) (centchange - dollars *DOLLARS)/QUARTERS);
+		dimes = (int)(centchange - dollars *DOLLARS - quarters *QUARTERS)/DIMES;
+		nickles = (int)(centchange - dollars *DOLLARS - quarters *QUARTERS - dimes * DIMES)/NICKLES;
+		pennies = (int)(centchange - dollars *DOLLARS - quarters *QUARTERS - dimes * DIMES - nickles * NICKLES)/PENNIES;
 		
 		System.out.println("You will receive " + dollars + " dollars, " + quarters + " quarters, "  + dimes + " dimes, " + nickles + " nickles, and  " + pennies + " pennies");
 				
