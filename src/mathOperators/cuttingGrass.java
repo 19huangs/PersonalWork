@@ -31,6 +31,9 @@ public class cuttingGrass {
 		System.out.println("The area of grass to be cut is " + difference + " square feet");
 		
 		earn = (difference/100) * 1.25; 
+		earn = Math.round(earn*100);
+		earn = earn/100;
+		
 		System.out.println("The amount owed is $" + earn);
 
 		
