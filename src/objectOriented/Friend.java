@@ -8,10 +8,11 @@ public class Friend {
 	//default constructor
 		
 	public Friend()
-{
+{}
 		
 		// Statements to initialize the state of the object
 		
-}
+	{
 //methods - things the object can do
+}
 }
