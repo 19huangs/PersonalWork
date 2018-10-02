@@ -1,18 +1,23 @@
 package objectOriented;
+
 //import statements at the top
 public class Car {
-	// instance fields - data storage
 
-	// constructors - methods for constructing the object
+	public Car() {
+	}
 
-	// default constructor
+	public void sayOdometer() {
+		System.out.println("10 miles on this car");
+	}
 
-	public Car()
-	{}
-			
-			// Statements to initialize the state of the object
-			
+	public void sayFlat() {
+		System.out.println("There is a flat tire");
+	}
+
+	public void sayThirsty() {
+		System.out.println("You are out of gas");
+	}
+
 	{
-	// methods - things the object can do
-}
+	}
 }
