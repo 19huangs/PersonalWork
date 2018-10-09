@@ -6,6 +6,10 @@ public class GreeterTestClass {
 		// TODO Auto-generated method stub
 greeter bob = new greeter();
 bob.sayHello();
+
+bob.setAge(5);
+System.out.println(bob.getAge());
+
 	}
 
 }
