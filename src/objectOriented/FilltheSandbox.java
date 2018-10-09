@@ -26,10 +26,7 @@ public class FilltheSandbox {
 	}
 
 	public void sayHouse2(double num, double num2, double num3, double num4) {
-		System.out.println("The length is: " + num + " feet"); //check if you need this part
-		System.out.println("The width is: " + num2 + " feet");
-		System.out.println("The depth is: " + num3 + " feet");
-		System.out.println("The amount of sand that can be transported in an hour is: " + num4 + " cubic feet"); 
+		double time = (num*num2*num3)/num4;
 	}
 
 	public double returnHours(double hours) {
