@@ -7,17 +7,18 @@ public class Circle {
 		radius = -999.99;
 
 	}
+		
 
 	public double returnRadius() {
 		return radius;
 	}
 
-	public double Circumfrence(double circumfrence) {
-		return circumfrence;
+	public double Circumfrence() {
+		return 2 * radius * Math.PI;
 	}
 
-	public double Area(double area) {
-		return area;
+	public double Area() {
+		return  radius * radius * Math.PI;
 	}
 
 	public void changeRadius(double xRadius) {
