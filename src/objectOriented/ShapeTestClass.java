@@ -34,6 +34,20 @@ public class ShapeTestClass {
 		daaaisy = new RightTriangle(base, height);
 		System.out.println("Triangle perimeter: " + daaaisy.perimeter());
 		System.out.println("Triangle area: " + daaaisy.area());
+		
+		Trapezoid tchenners = new Trapezoid();
+		System.out.println("What is the first base of the trapezoid?");
+		double base1 = input.nextDouble();
+		System.out.println("What is the second base of the trapezoid?");
+		double base2 = input.nextDouble();
+		System.out.println("What is the height of the trapezoid?");
+		double height2 = input.nextDouble();
+		System.out.println("What is the leg of the trapezoid?");
+		double leg = input.nextDouble();
+		
+		tchenners = new Trapezoid(base1, base2, height2, leg);
+		System.out.println("Trapezoid perimeter: " + tchenners.perimeter());
+		System.out.println("Trapezoid area: " + tchenners.area());
 	}
 		
 	
