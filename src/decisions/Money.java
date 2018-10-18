@@ -11,11 +11,10 @@ public class Money {
 		double age = input.nextDouble();
 		System.out.println("What is your GPA?");
 		double GPA = input.nextDouble();
-		
-		if ((age + GPA) > 20) {
-			double money = 250 + 30;
-		}
 		double money = 30;
+		if ((age + GPA) >= 20) {
+			money = 250;
+		}
 		System.out.println("You get: $" + money);
 	}
 
