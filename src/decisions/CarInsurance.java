@@ -18,7 +18,7 @@ public class CarInsurance {
 			cost += 125;
 		}
 		
-		els (age< 30.0)
+		if (age< 30.0)
 		{
 			cost -= 25;
 		}
