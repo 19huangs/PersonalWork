@@ -49,7 +49,7 @@ public class ForLoops {
 		}
 		
 	}*/
-		Scanner input = new Scanner (System.in);
+		/*Scanner input = new Scanner (System.in);
 		int counter = 0;
 		int number = 0;
 		System.out.println("What is your favorite number?");
@@ -60,6 +60,27 @@ public class ForLoops {
 			System.out.println(number + " Hello");
 		}
 		
-	}
+	}*/
+		/* Scanner input = new Scanner (System.in);
+		int counter = 0;
+		int sum = 0;
+		for (counter = 1; counter <=10; counter++)
+		{
+			sum = counter+ sum;
+		}
+		System.out.println("Sum: " + sum);
+	}	*/
 		
+		 Scanner input = new Scanner (System.in);
+			int counter = 0;
+			int sum = 0;
+			int number = 0;
+			for (counter = 1; counter <=5; counter++)
+			{
+				System.out.println("Enter a number: ");
+				number = input.nextInt();
+				sum = sum+ number;
+			}
+			System.out.println("Sum: " + sum);
+		}
 }
