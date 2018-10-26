@@ -14,11 +14,12 @@ public class DoLoops {
 			
 		}
 			while (num!=9999);*/
-		int largest = 0;
+		
 		int smallest = 9998;
 		
 		System.out.println("Enter Number: ");
 		int num = input.nextInt();
+		int largest = num;
 		do
 		{
 			
