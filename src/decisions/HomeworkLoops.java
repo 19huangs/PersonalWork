@@ -110,15 +110,16 @@ public class HomeworkLoops {
 		System.out.println("Numbers entered: " + numenters);
 	}*/
 //Circle Test
-		int radius1 =0;
+		/* int radius1 =0;
 		int radius2 =0;
 		int radius3 = 0;
 		
+		System.out.println("What is Radius 1? (Enter 999 to quit)");
+		radius1 = input.nextInt();
 		
 		do 
 		{ 
-			System.out.println("What is Radius 1? (Enter 999 to quit)");
-			radius1 = input.nextInt();
+			
 			Circle aafreen = new Circle(radius1);
 			aafreen.Circumfrence();
 		
@@ -130,11 +131,214 @@ public class HomeworkLoops {
 			radius3 = input.nextInt();
 			Circle aaaafreen = new Circle(radius3);
 			
-			System.out.println("Perimeters: " + aafreen.Circumfrence() + "," +aaafreen.Circumfrence() + "," + aaaafreen.Circumfrence());
+			
+			
+			System.out.println("Perimeters: " + aafreen.Circumfrence() + " ," +aaafreen.Circumfrence() + " ," + aaaafreen.Circumfrence());
+			
+			System.out.println("What is Radius 1? (Enter 999 to quit)");
+			radius1 = input.nextInt();
 		}
 		while (radius1!=999);
+		
+}*/
+
+//FOR LOOPS
+//Sum of Odd
+		/*int counter =0;
+		int sum = 0;
+		int number = 0;
+		System.out.println("Number: ");
+		number = input.nextInt();
+		if (number<0)
+		{
+			System.out.println("Pick a new number: ");
+			number=input.nextInt();
+		}
+		for (counter = 1; counter <= number; counter += 2)
+		{
+			
+			sum = sum + counter;
+		}
+		System.out.println("Sum: " + sum);
+		}*/
+		
+		/*int counter = 0;
+		int numstudents=0;
+		double average = 0;
+		double sum = 0;
+		double test = 0;
+		System.out.println("Number of students: ");
+		numstudents=input.nextInt();
+		
+		
+		for (counter = 1; counter<=numstudents; counter++)
+		{
+			System.out.println("Test Score: ");
+			test=input.nextInt();
+			
+			sum = sum + test;
+		}
+		average = sum/numstudents;
+		System.out.println("Average: " + average);
+	}*/
+		
+//Factorial
+		/*int counter = 0;
+		int number=0;
+		int factorial = 1;
+		System.out.println("Number: ");
+		number=input.nextInt();
+		
+		System.out.print(number + "! =");
+		for (counter =number; counter>0; counter-=1)
+		{
+			
+			factorial = factorial*counter;
+			System.out.print( counter + "*" );
+		
+		}
+		System.out.print(" =" + factorial);
+	}*/
+
+		
+//Cash Register
+		
+		/* int numItems = 0;
+		double price = 0;
+		double cost = 0;
+		int counter =0;
+		double tax = 0;
+		System.out.println("How many items?");
+		numItems=input.nextInt();
+		
+		for (counter = 1; counter<= numItems; counter++)
+		{
+			System.out.println("What is the price of the item?");
+			price = input.nextDouble();
+			
+			cost = cost + price;
+		}
+		tax = cost *0.05;
+		System.out.println("Total cost: " + cost);
+		System.out.println("Tax: " + tax);
+		System.out.println("Total: " + (tax + cost));
+	}*/
+//Divisors		
+		/*int counter = 0;
+		int number = 0;
+		int numdivisors = 0;
+		
+		System.out.println("Enter a number: ");
+		number = input.nextInt();
+		
+		for (counter = 1; counter<=number; counter++)
+		{
+			if (number%counter == 0)
+			{
+				numdivisors++;
+			}
+		}
+		
+		System.out.println("Number of divisors: " + numdivisors);
+	}*/
+// Largest Divisor		
+		/*int counter = 0;
+		int number = 0;
+		int largest = 0;
+		System.out.println("Enter a number: ");
+		number = input.nextInt();
+		
+		for (counter = 1; counter<number; counter++)
+		{
+			if (number%counter == 0)
+			{
+					largest = counter;
+	
+			}
+		}
+		System.out.println("Largest Divisor (other than itself): " + largest);
+	}*/
+		
+// Prime Number	
+		/*int counter = 0;
+		int number = 0;
+		int numdivisors = 0;
+		
+		System.out.println("Enter a number: ");
+		number = input.nextInt();
+		
+		for (counter = 1; counter<=number; counter++)
+		{
+			if (number%counter == 0)
+			{
+				numdivisors++;
+			}
+		}
+		if (numdivisors == 2)
+		{
+			System.out.println("Number is prime");
+		}
+		else
+		{
+			System.out.println("Number is not prime");
+		}
+	}*/
+		
+		
+//NESTED LOOPS
+//Divisors Input
+		
+		/*int counter = 0;
+		int counter2 = 0;
+		int number = 0;
+		int numdivisors = 0;
+		int largest = 0;
+		int theEndInteger = 0;
+		
+		System.out.println("Enter a number: ");
+		number = input.nextInt();
+		for (counter = 1; counter<=number; counter++)
+		{
+			for (counter2 = 1; counter2<=number; counter2++)
+			{
+				if (counter%counter2 ==0)
+				{
+					numdivisors++;
+				}
+				if (numdivisors> largest)
+				{
+					largest = numdivisors;
+					theEndInteger = counter;
+				}
+			}
+			numdivisors = 0;
+		
+		}
+		System.out.println("Integer with the most divisors: " + theEndInteger);
+	}*/
+		
+		int counter = 0;
+		int counter2 = 0;
+		int counter3=0;
+		
+			for (counter=5; counter >=1; counter-= 1)
+			{
+				for (counter2 = 1; counter2<=5; counter2 ++)
+				{
+					System.out.print(counter+ " ");
+				}
+				System.out.println();
+			}
+		
+	}
 }
-}
+	
+	
+
+
+		
+		
+
 
 
 		
