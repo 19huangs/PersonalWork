@@ -76,7 +76,7 @@ public class SampleAssessments {
 	}*/
 
 //FOR LOOP
-		int number = 0;
+		/*int number = 0;
 		int counter = 0;
 		int sum = 0;
 		System.out.println("Pick a number: ");
@@ -90,6 +90,48 @@ public class SampleAssessments {
 			sum = sum + counter;
 		}
 		System.out.println("Sum of even numbers: " + sum);
+	}*/
+		
+		
+// NESTED LOOPS
+		int number = 0;
+		
+		int counter2 = 0;
+		int sum = 0;
+		int quit = 0;
+		
+		System.out.println("Pick a number: ");
+		number=input.nextInt();
+		
+		do
+		{
+			for (counter2 = 2; counter2<=number; counter2+=2)
+
+	
+			{
+				if (number%counter2 ==0)
+				{
+					
+					sum = sum + counter2;
+				}
+				
+			}
+			System.out.println("Sum of even divisors: " + sum );
+			System.out.println("Quit = 1, Keep going = 0");
+			quit =input.nextInt();
+			sum = 0;
+			if ( quit ==0)
+				{
+				System.out.println("Pick a number: ");
+				number=input.nextInt();
+				}
+			
+		}
+		while (quit!=1);
 	}
 }
 		
+	
+
+		/*
+*/
