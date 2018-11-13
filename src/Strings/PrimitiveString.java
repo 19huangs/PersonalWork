@@ -38,8 +38,8 @@ public class PrimitiveString {
 			System.out.println("This sentence does have the word Bob");
 		}
 		System.out.println(sentence);*/
-		
-		System.out.println("Write a name");
+//compareTo	
+		/*System.out.println("Write a name");
 		String name1 = input.nextLine();
 		System.out.println("Write another name");
 		String name2 = input.nextLine();
@@ -55,6 +55,44 @@ public class PrimitiveString {
 		{
 			System.out.println(name2 + " comes before " + name1);
 		}
-	}
+	}*/
+		
+//indexOF		
+		/*System.out.println("Write a sentence");
+		String sentence = input.nextLine();
+		
+		sentence.indexOf("X");
+		System.out.println("The first letter X appears: " + (sentence.indexOf("X") + 1));	
+	}*/
 
+//length
+		/*System.out.println("Write a sentence");
+		String sentence = input.nextLine();
+		
+		System.out.println("Length of sentence: " + sentence.length());*/
+		
+		/*int counter=0;
+		System.out.println("Write a sentence");
+		String sentence = input.nextLine();
+
+		for (counter = 0; counter < sentence.length(); counter++)
+		{
+			System.out.println(sentence.charAt(counter));
+		}
+	}*/
+		
+//toLowerCase
+		/*String sentence = "My name is Buzz Lightyear!";
+		for (int counter = 0; counter < sentence.length(); counter++)
+		{
+			System.out.println(sentence.substring(0, counter));
+		}*/
+
+//toLowerCase		
+		System.out.println("Write a sentence");
+		String sentence = input.nextLine();
+		
+		System.out.println(sentence.toLowerCase());	
+		System.out.println(sentence);	
+	}
 }
