@@ -6,41 +6,43 @@ public class RectangleClass {
 	    
 	   public RectangleClass()
 	    {
-	     length = 10;
-	     width  = 10;
+		   length = 10;
+		   width  = 10;
 	    }
-	    public RectangleClass(int xLength, int xWidth)
+	   
+	   public RectangleClass(int xLength, int xWidth)
 	    {
 	     length = xLength;
 	     width = xWidth;
 	    }
 
-	    public int getLength()
+	   public int getLength()
 	    {
 	     return length;
 	    }
-	    public int getWidth()
+	   
+	   public int getWidth()
 	    {
 	     return width;
 	    }
 	    
-	    public void setLength(int xLength)
+	   public void setLength(int xLength)
 	    {
-	     length = xLength;
+		   length = xLength;
 	    }
-	    public void setWidth(int xWidth)
+	   public void setWidth(int xWidth)
 	    {
-	     width = xWidth;
+		   width = xWidth;
 	    }
 
 	   public int perimeter()
-	{
-	return length * 2 + width * 2;
-	}
+	   {
+		   return length * 2 + width * 2;
+	   }
 
-	public int area()
-	{
-	return length * width;
-	}
+	   public int area()
+	   {
+		   return length * width;
+	   }
 	
 }
