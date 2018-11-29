@@ -44,25 +44,22 @@ public class OneDimensionalPrimitives {
 	
 		
 //Practice Assessment objects
-	int numIntegers = 3;
-	int [] cat = new int [numIntegers];
 	
-	for (int counter = 0; counter < cat.length; counter++)
-	{
-		System.out.println("Name of Friend: ");
-		String friend = input.nextLine();
+		int numIntegers = 3;
+		int [] cat = new int [numIntegers];
 		
-		System.out.println("Age of Friend: ");
-		int age = input.nextInt();
-		
-		FriendClass aafreen = new FriendClass(friend, age);
+		String friend = "";
+		int age = 0;
+		for (int counter = 0; counter < numIntegers; counter++)
+		{
+			System.out.println("Name of Friend: ");
+			friend = input.nextLine();
+			
+			System.out.println("Age of Friend: ");
+			age = input.nextInt();
+			
+		}
 	}
-	for (int counter2 = (cat.length-1); counter2 >=0; counter2--)
-	{
-		System.out.println(cat[counter2]);
-	}
-	
-}
 }
 		
 		
