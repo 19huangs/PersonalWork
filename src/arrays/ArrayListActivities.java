@@ -11,14 +11,16 @@ public class ArrayListActivities {
 		/*ArrayList<String> cat = new ArrayList<String>();
 		cat.add("Bob Smith");
 		cat.add("Jane Miller");
-		cat.add(0,"Billy Jones");
+		cat.add(1,"Billy Jones");
 		
 		System.out.println("What is your name?");
 		String name = input.nextLine();
 		cat.add(name);
 		
-
-		System.out.println(cat);
+		for (int counter= 0; counter <cat.size(); counter++)
+		{
+			System.out.println(cat.get(counter));
+		}	
 	}*/
 // Friend Activity
 		ArrayList<FriendClass> cat = new ArrayList<FriendClass>();
@@ -26,6 +28,10 @@ public class ArrayListActivities {
 		cat.add(new FriendClass("First Friend", 17));
 		cat.add(0, new FriendClass("Second Friend", 15));
 		cat.add(0, new FriendClass("Third Friend", 12));
-		
-	}	
+		for (int counter= 0; counter <cat.size(); counter++)
+		{
+			System.out.println(cat.get(counter).getAge());
+			
+		}	
+	}
 }
