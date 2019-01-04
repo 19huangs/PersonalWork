@@ -1,6 +1,6 @@
 package interfacesPolymorphism;
 
-public class Teacher
+public class Teacher implements Person
 {
 	
 	String name;

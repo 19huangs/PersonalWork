@@ -1,6 +1,6 @@
 package interfacesPolymorphism;
 
-public class Student
+public class Student implements Person
 {
 	String name;
 	int studentAge;
@@ -34,7 +34,7 @@ public class Student
 		return name;
 	}
 	
-	public int getAabsent()
+	public int getAbsent()
 	{
 		return absent;
 	}

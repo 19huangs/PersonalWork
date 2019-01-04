@@ -1,6 +1,6 @@
 package interfacesPolymorphism;
 
-public class Circle
+public class Circle implements Shape
 {
     private double radius;
     
