@@ -7,6 +7,9 @@ public class RectangleTestClass {
 		Rectangle bob = new Rectangle (10,20);
 		System.out.println(bob.getPerimeter());
 		System.out.println(bob.area());
+		
+		Quadrilateral cat = new Quadrilateral();
+		System.out.println(cat.toString());
 	
 	}
 

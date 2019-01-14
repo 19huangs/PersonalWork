@@ -8,8 +8,8 @@ public class TrapezoidTestClass {
 		System.out.println(bob.getPerimeter());
 		System.out.println(bob.area());
 		
-		Square bobb = new Square(5);
-		System.out.println(bobb.area());
+		Parallelogram bobb = new Parallelogram(5,6,7);
+		System.out.println(bobb.toString() );
 	}
 
 }

@@ -57,5 +57,12 @@ public class Quadrilateral {
 	{
 		return s1+s2+s3+s4;
 	}
-	
+	public String toString()
+	{
+		return "Quadrilateral = side 1:" + s1 + ", side 2:" + s2+ ", side 3:" + s3+ ", side 4:" + s4;
+	}
+	public boolean equals(Object anObject)
+	{
+		return this.toString().equals(anObject.toString());
+	}
 }
