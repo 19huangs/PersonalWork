@@ -16,4 +16,15 @@ public class Rectangle extends Parallelogram implements Geo{
 	{
 		return super.getS1()*super.getS2();
 	}
+	public boolean equals(Object otherObject)
+	{
+		if(this.toString().equals(otherObject.toString()))
+			{
+			return true;
+			}
+		else
+		{
+			return false;
+		}
+	}
 }
